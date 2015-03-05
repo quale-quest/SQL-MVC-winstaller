@@ -21,7 +21,8 @@ message, and also auto refresh.
 
 Download
 ===
-[SQL-MVC-winstaller.exe](https://github.com/quale-quest/sql-mvc-winstaller/blob/master/SQL-MVC-winstaller.exe)
+[SQL-MVC-winstaller.exe](https://github.com/quale-quest/SQL-MVC-winstaller/blob/master/SQL-MVC-Installer.exe)
+                         
 
 Documentation
 ===
