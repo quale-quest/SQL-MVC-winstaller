@@ -4,7 +4,7 @@ Windows installer for SQL-MVC
 
 This will install nodejs, firebird, notepad++ and download and install the latest SQL-MVC
 
-Once installed, do windows start->SQL-MVC->Run all  (it can also be launched the first time form the installer),
+Once installed, run "windows start->SQL-MVC->Run all"  (it can also be launched the first time form the installer),
 this will run a bunch of background processes, and eventually pop-up notepad++ and a browser window.
 Once the server launches, you can kill it by killing the batch file.
 
@@ -18,6 +18,10 @@ When saving a change to the source files, currently you have to refresh the brow
 top see the changes and there will be a few seconds delay as the server does Just In Time Compiling.
 Changes to the model will delay as much as 30 seconds). Future versions will give a nice "please wait" 
 message, and also auto refresh.
+
+Download
+===
+[SQL-MVC-winstaller.exe](https://github.com/quale-quest/sql-mvc-winstaller/blob/master/SQL-MVC-winstaller.exe)
 
 Documentation
 ===
