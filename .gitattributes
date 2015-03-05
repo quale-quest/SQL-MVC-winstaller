@@ -1,0 +1,7 @@
+winstaller/winstart-browser.bat eol=crlf
+winstaller/winstart-server.bat eol=crlf
+winstaller/winstart-compile.bat eol=crlf
+winstaller/winstart-develop.bat eol=crlf
+winstaller/winstart-download.bat eol=crlf
+winstaller/winstart-install.bat eol=crlf
+winstaller/winstart-runall.bat eol=crlf
