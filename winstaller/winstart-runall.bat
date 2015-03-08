@@ -1,6 +1,7 @@
 
 c:
 cd \SQL-MVC
+dir >C:\SQL-MVC\node_modules\sql-mvc\Quale\Config\killserver.quicc
 
 IF not EXIST "C:\SQL-MVC\node_modules\sql-mvc\README.md" (
 cmd /c winstart-install.bat

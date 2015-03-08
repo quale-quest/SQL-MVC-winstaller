@@ -81,16 +81,16 @@ Source: "{#FIREBIRD}"; DestDir: "{app}"; Flags: ignoreversion
 [Icons]
 ;Name: "{commonprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\{#MyAppIcon}"
 
-Name: "{group}\{#MyAppName} - 1 - Run all"; Filename: "{app}\{#MyAppExeName}";  IconFilename: "{app}\{#MyAppIcon}"
+Name: "{group}\1 - Run all"; Filename: "{app}\{#MyAppExeName}";  IconFilename: "{app}\{#MyAppIcon}"
+Name: "{group}\2 - download latest"; Filename: "{app}\winstart-download.bat";  IconFilename: "{app}\Download.ico"
 
-Name: "{group}\{#MyAppName} - 2 - download "; Filename: "{app}\winstart-download.bat";  IconFilename: "{app}\Download.ico"
-Name: "{group}\{#MyAppName} - 3 - develop "; Filename: "{app}\winstart-develop.bat";  IconFilename: "{app}\EditBerry.ico"
-Name: "{group}\{#MyAppName} - 4 - compile "; Filename: "{app}\winstart-compile.bat";  IconFilename: "{app}\Compile.ico"
-Name: "{group}\{#MyAppName} - 5 - open browser"; Filename: "{app}\winstart-browser.bat";  IconFilename: "{app}\BrowseBerry.ico"
+Name: "{group}\extra\3 - develop "; Filename: "{app}\winstart-develop.bat";  IconFilename: "{app}\EditBerry.ico"
+Name: "{group}\extra\4 - compile "; Filename: "{app}\winstart-compile.bat";  IconFilename: "{app}\Compile.ico"
+Name: "{group}\extra\5 - open browser"; Filename: "{app}\winstart-browser.bat";  IconFilename: "{app}\BrowseBerry.ico"
 
-Name: "{group}\{#MyAppName} - 6 - run app server as an application "; Filename: "{app}\winstart-server.bat";  IconFilename: "{app}\RunApp.ico"
-Name: "{group}\{#MyAppName} - 7 - start app server service"; Filename: "{sys}\net.exe"; Parameters: "start {#MyAppShortName}"; IconFilename: "{app}\RunService.ico" ; Tasks: runasservice
-Name: "{group}\{#MyAppName} - 8 - stop  app server service"; Filename: "{sys}\net.exe"; Parameters: "stop {#MyAppShortName}"; IconFilename: "{app}\StopService.ico" ; Tasks: runasservice
+Name: "{group}\extra\6 - run app server as an application "; Filename: "{app}\winstart-server.bat";  IconFilename: "{app}\RunApp.ico"
+Name: "{group}\extra\7 - start app server service"; Filename: "{sys}\net.exe"; Parameters: "start {#MyAppShortName}"; IconFilename: "{app}\RunService.ico" ; Tasks: runasservice
+Name: "{group}\extra\8 - stop  app server service"; Filename: "{sys}\net.exe"; Parameters: "stop {#MyAppShortName}"; IconFilename: "{app}\StopService.ico" ; Tasks: runasservice
 
 Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
 
