@@ -11,3 +11,5 @@ set PATH=%ProgramFiles%\nodejs;%PATH%
 cd \SQL-MVC\node_modules\sql-mvc
 node server\compiler\compile.js app Home/Guest all
 
+copy "C:\SQL-MVC\node_modules\sql-mvc\install\userDefineLang.xml" "%APPDATA%\Notepad++\userDefineLang.xml"
+
