@@ -10,5 +10,12 @@ cd \SQL-MVC\node_modules\sql-mvc
 @IF EXIST "%~dp0\node.exe" (
   "%~dp0\node.exe" "app.js" %*
 ) ELSE (
+
+@IF EXIST "%ProgramFiles%\nodejs\node.exe" (
   "%ProgramFiles%\nodejs\node" app.js
+)
+
+@IF EXIST "%ProgramFiles(x86)%\nodejs\node.exe" (
+  "%ProgramFiles(x86)%\nodejs\node" app.js
+)
   )

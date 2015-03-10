@@ -11,9 +11,20 @@ echo lauching browser
 :: Open App in Chrome or another application
 @IF EXIST "%ProgramFiles%\Google\Chrome\Application\chrome.exe" (
   start /b "chrome" "%ProgramFiles%\Google\Chrome\Application\chrome.exe" --app=http://localhost:3000 --use-data-dir=%APPDATA%\SQL-MVC\
-  exit
+  
+exit
 )
 
+@IF EXIST "%ProgramFiles(x86)%\Google\Chrome\Application\chrome.exe" (
+  start /b "chrome" "%ProgramFiles(x86)%\Google\Chrome\Application\chrome.exe" --app=http://localhost:3000 --use-data-dir=%APPDATA%\SQL-MVC\
+  
+exit
+)
+
+
+@IF EXIST "%ProgramFiles(x86)%\Mozilla Firefox\firefox.exe" (
+  start /b "firefox"  "%ProgramFiles(x86)%\Mozilla Firefox\firefox.exe" http://localhost:3000
+)
 
 @IF EXIST "%ProgramFiles%\Mozilla Firefox\firefox.exe" (
   start /b "firefox"  "%ProgramFiles%\Mozilla Firefox\firefox.exe" http://localhost:3000
@@ -21,3 +32,4 @@ echo lauching browser
   start /b "msie" %~dp0\msie-app-secure.hta
   }
 
+pause

@@ -9,7 +9,7 @@ cd \SQL-MVC
 dir >C:\SQL-MVC\node_modules\sql-mvc\Quale\Config\killserver.quicc
 ping -n 3 127.0.0.1 > nul
   
-npm install sql-mvc
+cmd /c npm install sql-mvc
 
 
 cd \SQL-MVC
